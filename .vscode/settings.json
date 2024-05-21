@@ -2,6 +2,15 @@
   "better-comments.highlightPlainText": true,
   "better-comments.multilineComments": true,
   "better-comments.tags": [
+    {
+      "tag": "",
+      "color": "#f5ad42",
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false,
+      "strikethrough": false,
+      "underline": false,
+    },
      {
       "tag": "refactor",
       "color": "#7EB08A",
@@ -31,7 +40,7 @@
     },
     {
       "tag": "?",
-      "color": "#7EA4B0",
+      "color": "#D1DED3",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -40,7 +49,7 @@
     },
     {
       "tag": "//",
-      "color": "#474747",
+      "color": "#7EA4B0",
       "strikethrough": true,
       "underline": false,
       "backgroundColor": "transparent",
@@ -64,15 +73,6 @@
       "backgroundColor": "transparent",
       "bold": false,
       "italic": false
-    },
-    {
-      "tag": "fixme",
-      "color": "#f5ad42",
-      "backgroundColor": "transparent",
-      "bold": true,
-      "italic": true,
-      "strikethrough": false,
-      "underline": false,
     },
   ],
   "css.validate": false,
