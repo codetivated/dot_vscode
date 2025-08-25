@@ -100,11 +100,9 @@
   "stylelint.enable": true,
   "terminal.integrated.fontFamily": "'Inconsolata', monospace",
   "workbench.colorTheme": "Matchalk",
-  "workbench.enableExperiments": false,
   "workbench.iconTheme": "file-icons",
   "workbench.view.alwaysShowHeaderActions": true,
   "editor.parameterHints.enabled": false,
-  "html.format.endWithNewline": true,
   "html.format.maxPreserveNewLines": 2,
   "html.format.wrapLineLength": 80,
   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
@@ -118,4 +116,7 @@
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
   "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
   "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
+  "htmlhint.options": {
+  "doctype-first": false
+}
 }
