@@ -9,7 +9,7 @@
       "bold": true,
       "italic": false,
       "strikethrough": false,
-      "underline": false,
+      "underline": false
     },
     {
       "tag": "refactor",
@@ -73,7 +73,7 @@
       "backgroundColor": "transparent",
       "bold": false,
       "italic": false
-    },
+    }
   ],
   "css.validate": false,
   "editor.accessibilitySupport": "off",
@@ -81,17 +81,30 @@
     "source.fixAll.eslint": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
   "editor.scrollBeyondLastColumn": 2,
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
-  "eslint.workingDirectories": [
-    "client"
-  ],
+  "eslint.workingDirectories": ["client"],
   "files.autoSave": "onFocusChange",
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
@@ -117,6 +130,6 @@
   "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
   "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
   "htmlhint.options": {
-  "doctype-first": false
-}
+    "doctype-first": false
+  }
 }
